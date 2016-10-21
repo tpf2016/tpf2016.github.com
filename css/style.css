@@ -1,0 +1,25 @@
+html { 
+	background: url(/img/background.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#000000')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#')";
+}
+
+.font{
+	text-align: center; 
+	font-size: 30px; 
+	color:#FFFFFF; 
+	text-shadow: 2px 2px #000000;
+}
+
+.p{
+	background-color: rgba( 255, 255, 255, 0.0 );
+}
